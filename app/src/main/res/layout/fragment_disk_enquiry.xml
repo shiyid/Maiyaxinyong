@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.RiskEnquiryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:src="@mipmap/advanced"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="25sp"
+                android:gravity="center|right"
+                android:textColor="#D73D01"
+                android:text="2.00"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="10sp"
+                android:gravity="center|left"
+                android:textColor="#D73D01"
+                android:text="(元/次)"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="多头借贷"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+                <Button
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="查询"
+                    android:background="@drawable/radius_button"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:src="@mipmap/advanced"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="25sp"
+                android:gravity="center|right"
+                android:textColor="#D73D01"
+                android:text="2.00"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="10sp"
+                android:gravity="center|left"
+                android:textColor="#D73D01"
+                android:text="(元/次)"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="多头借贷"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+                <Button
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="查询"
+                    android:background="@drawable/radius_button"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:src="@mipmap/advanced"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="25sp"
+                android:gravity="center|right"
+                android:textColor="#D73D01"
+                android:text="2.00"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="10sp"
+                android:gravity="center|left"
+                android:textColor="#D73D01"
+                android:text="(元/次)"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="多头借贷"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+                <Button
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="查询"
+                    android:background="@drawable/radius_button"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:src="@mipmap/advanced"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="25sp"
+                android:gravity="center|right"
+                android:textColor="#D73D01"
+                android:text="2.00"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="10sp"
+                android:gravity="center|left"
+                android:textColor="#D73D01"
+                android:text="(元/次)"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="多头借贷"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+                <Button
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="查询"
+                    android:background="@drawable/radius_button"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:src="@mipmap/advanced"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="25sp"
+                android:gravity="center|right"
+                android:textColor="#D73D01"
+                android:text="2.00"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="10sp"
+                android:gravity="center|left"
+                android:textColor="#D73D01"
+                android:text="(元/次)"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="多头借贷"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+                <Button
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="查询"
+                    android:background="@drawable/radius_button"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

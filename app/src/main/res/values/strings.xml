@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Maiyaxinyong</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="main_home_text">信用查询</string>
+    <string name="main_attention_text">历史报告</string>
+    <string name="main_mine_text">个人中心</string>
+
+    <array name="home_video_tab">
+        <item>风控验证@dream@0</item>
+        <item>风险查询@dream@1</item>
+    </array>
 </resources>
