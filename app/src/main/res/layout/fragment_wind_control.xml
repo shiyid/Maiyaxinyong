@@ -3,421 +3,592 @@
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:background="#C9F3FF"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C9F3FF"
+    android:orientation="vertical"
     tools:context=".ui.fragment.WindControlFragment">
 
-        <LinearLayout
-            android:background="@color/background"
-            android:paddingTop="15dp"
-            android:paddingBottom="15dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp">
 
         <LinearLayout
-            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
             android:layout_marginBottom="10dp"
             android:background="#ffffff"
             android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="160dp">
+            android:padding="10dp">
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
                 <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
                     android:padding="10dp"
-                    android:src="@mipmap/advanced"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp" />
-                
-                <TextView
-                    android:paddingLeft="15dp"
-                    android:paddingBottom="5dp"
-                    android:text="· 多头借贷"
-                    android:textSize="13sp"
-                    android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:src="@mipmap/img_query01" />
 
-                <TextView
-                    android:paddingLeft="15dp"
-                    android:text="· 借贷宝逾期"
-                    android:textSize="13sp"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="left|center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:text="多头借贷"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:paddingLeft="10dp"
+                        android:text="借贷宝逾期"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="bottom"
                     android:padding="10dp"
                     android:text="  更多》"
-                    android:textColor="#21aefc"
-                    android:gravity="bottom"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp" />
+                    android:textColor="#21aefc" />
 
-                <TextView
-                    android:paddingLeft="10dp"
-                    android:paddingBottom="5dp"
-                    android:textSize="13sp"
-                    android:text="· 医社保"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:paddingLeft="10dp"
-                    android:text="· 公积金"
-                    android:textSize="13sp"
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:text="医社保"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:paddingLeft="10dp"
+                        android:text="公积金"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_weight="1.2"
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:orientation="vertical">
 
                 <TextView
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:textSize="20sp"
+                    android:layout_weight="1"
                     android:gravity="center"
-                    android:text="高级查询"/>
+                    android:text="高级查询"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
 
-                <TextView
-                    android:layout_weight="1"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:textSize="20sp"
-                    android:gravity="center"
-                    android:textColor="#D73D01"
-                    android:text="9.90 (元/次)"/>
+                    android:layout_weight="0.6"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="9.90"
+                        android:textColor="#D73D01"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="3dp"
+                        android:text="(元/次)"
+                        android:textColor="#D73D01"
+                        android:textSize="12sp" />
+                </LinearLayout>
 
                 <Button
-                    android:layout_marginTop="25dp"
-                    android:layout_marginBottom="5dp"
-                    android:background="@drawable/radius_button"
-                    android:layout_weight="0.8"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:text="查询"/>
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/radius_button"
+                    android:text="查询"
+                    android:textColor="@color/white" />
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
             android:layout_marginBottom="10dp"
             android:background="#ffffff"
             android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="160dp">
+            android:padding="10dp">
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
                 <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
                     android:padding="10dp"
-                    android:src="@mipmap/advanced"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp" />
+                    android:src="@mipmap/img_query02" />
 
-                <TextView
-                    android:paddingLeft="15dp"
-                    android:paddingBottom="5dp"
-                    android:text="· 多头借贷"
-                    android:textSize="13sp"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:paddingLeft="15dp"
-                    android:text="· 借贷宝逾期"
-                    android:textSize="13sp"
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="left|center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:text="法院失信"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:paddingLeft="10dp"
+                        android:text="多头借贷"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="bottom"
                     android:padding="10dp"
                     android:text="  更多》"
-                    android:textColor="#21aefc"
-                    android:gravity="bottom"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp" />
+                    android:textColor="#21aefc" />
 
-                <TextView
-                    android:paddingLeft="10dp"
-                    android:paddingBottom="5dp"
-                    android:textSize="13sp"
-                    android:text="· 医社保"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:paddingLeft="10dp"
-                    android:text="· 公积金"
-                    android:textSize="13sp"
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:text="运营商"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:paddingLeft="10dp"
+                        android:text="米房逾期"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_weight="1.2"
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:orientation="vertical">
 
                 <TextView
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:textSize="20sp"
+                    android:layout_weight="1"
                     android:gravity="center"
-                    android:text="高级查询"/>
+                    android:text="中级查询"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
 
-                <TextView
-                    android:layout_weight="1"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:textSize="20sp"
-                    android:gravity="center"
-                    android:textColor="#D73D01"
-                    android:text="9.90 (元/次)"/>
+                    android:layout_weight="0.6"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="5.90"
+                        android:textColor="#D73D01"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="3dp"
+                        android:text="(元/次)"
+                        android:textColor="#D73D01"
+                        android:textSize="12sp" />
+                </LinearLayout>
 
                 <Button
-                    android:layout_marginTop="25dp"
-                    android:layout_marginBottom="5dp"
-                    android:background="@drawable/radius_button"
-                    android:layout_weight="0.8"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:text="查询"/>
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/radius_button"
+                    android:text="查询"
+                    android:textColor="@color/white" />
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
             android:layout_marginBottom="10dp"
             android:background="#ffffff"
             android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="160dp">
+            android:padding="10dp">
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
                 <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
                     android:padding="10dp"
-                    android:src="@mipmap/advanced"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp" />
+                    android:src="@mipmap/img_query03" />
 
-                <TextView
-                    android:paddingLeft="15dp"
-                    android:paddingBottom="5dp"
-                    android:text="· 多头借贷"
-                    android:textSize="13sp"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:paddingLeft="15dp"
-                    android:text="· 借贷宝逾期"
-                    android:textSize="13sp"
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="left|center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:text="法院失信"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:paddingLeft="10dp"
+                        android:text="多头借贷"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="bottom"
                     android:padding="10dp"
                     android:text="  更多》"
-                    android:textColor="#21aefc"
-                    android:gravity="bottom"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp" />
+                    android:textColor="#21aefc" />
 
-                <TextView
-                    android:paddingLeft="10dp"
-                    android:paddingBottom="5dp"
-                    android:textSize="13sp"
-                    android:text="· 医社保"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:paddingLeft="10dp"
-                    android:text="· 公积金"
-                    android:textSize="13sp"
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:text="米房逾期"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp" />
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center|right"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/circle_bg" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:paddingLeft="10dp"
+                        android:text="借贷宝逾期"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_weight="1.2"
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:orientation="vertical">
 
                 <TextView
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:textSize="20sp"
+                    android:layout_weight="1"
                     android:gravity="center"
-                    android:text="高级查询"/>
+                    android:text="初级查询"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
 
-                <TextView
-                    android:layout_weight="1"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:textSize="20sp"
-                    android:gravity="center"
-                    android:textColor="#D73D01"
-                    android:text="9.90 (元/次)"/>
+                    android:layout_weight="0.6"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="1.90"
+                        android:textColor="#D73D01"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="3dp"
+                        android:text="(元/次)"
+                        android:textColor="#D73D01"
+                        android:textSize="12sp" />
+                </LinearLayout>
 
                 <Button
-                    android:layout_marginTop="25dp"
-                    android:layout_marginBottom="5dp"
-                    android:background="@drawable/radius_button"
-                    android:layout_weight="0.8"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:text="查询"/>
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/radius_button"
+                    android:text="查询"
+                    android:textColor="@color/white" />
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
             android:layout_marginBottom="10dp"
             android:background="#ffffff"
             android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="160dp">
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@mipmap/img_05" />
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1">
 
-                <ImageView
-                    android:padding="10dp"
-                    android:src="@mipmap/advanced"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp" />
-
-                <TextView
-                    android:paddingLeft="15dp"
-                    android:paddingBottom="5dp"
-                    android:text="· 多头借贷"
-                    android:textSize="13sp"
-                    android:layout_width="match_parent"
-                    android:layout_height="20dp" />
-
-                <TextView
-                    android:paddingLeft="15dp"
-                    android:text="· 借贷宝逾期"
-                    android:textSize="13sp"
-                    android:layout_width="match_parent"
-                    android:layout_height="20dp" />
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:padding="10dp"
-                    android:text="  更多》"
-                    android:textColor="#21aefc"
-                    android:gravity="bottom"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp" />
-
-                <TextView
-                    android:paddingLeft="10dp"
-                    android:paddingBottom="5dp"
-                    android:textSize="13sp"
-                    android:text="· 医社保"
-                    android:layout_width="match_parent"
-                    android:layout_height="20dp" />
-
-                <TextView
-                    android:paddingLeft="10dp"
-                    android:text="· 公积金"
-                    android:textSize="13sp"
-                    android:layout_width="match_parent"
-                    android:layout_height="20dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
+                android:layout_height="match_parent"
                 android:layout_weight="1.2"
-                android:layout_width="0dp"
-                android:layout_height="match_parent">
+                android:orientation="vertical">
 
                 <TextView
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:textSize="20sp"
+                    android:layout_weight="1"
                     android:gravity="center"
-                    android:text="高级查询"/>
+                    android:text="自定义查询"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
 
-                <TextView
-                    android:layout_weight="1"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:textSize="20sp"
-                    android:gravity="center"
-                    android:textColor="#D73D01"
-                    android:text="9.90 (元/次)"/>
 
                 <Button
-                    android:layout_marginTop="25dp"
-                    android:layout_marginBottom="5dp"
-                    android:background="@drawable/radius_button"
-                    android:layout_weight="0.8"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:text="查询"/>
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/radius_button"
+                    android:text="点击进入"
+                    android:textColor="@color/white" />
             </LinearLayout>
         </LinearLayout>
 
-        </LinearLayout>
+    </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
